@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main(void)
+{
+	int year,month,date;
+	printf("½Ð¿é¤J¥X¥Í¦~¤ë¤é\n");
+	printf("¦~:");
+	scanf("%d",&year);
+	printf("¤ë:");
+	scanf("%d",&month); 
+	printf("¤é:");
+	scanf("%d",&date); 
+	printf("§Aªº¥X¥Í¦~¤ë¤é¬°:%d¦~%d¤ë%d¤é",year,month,date);
+	system("pause");
+}	
